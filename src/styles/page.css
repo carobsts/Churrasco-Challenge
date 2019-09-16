@@ -1,15 +1,115 @@
-.page-complete {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+body {
+    width: 1300px;
+    height: 500px;
+    font-family: "Montserrat", sans-serif;
 }
 
-
+html {
+    --antd-wave-shadow-color: #09AB8F;
+}
 .reserves {
     -webkit-box-shadow: 5px 5px 6px 0px rgba(0,0,0,0.2);
     -moz-box-shadow: 5px 5px 6px 0px rgba(0,0,0,0.2);
     box-shadow: 5px 5px 6px 0px rgba(0,0,0,0.2);
-    width: 75%;
-    margin: 50px 0;
+    margin: 50px 50px 50px 100px;
+    padding: 30px 0 50px 0;
+    width: 1080px;
+}
+
+#reserve-font {
+    font-weight: bold;
+    font-size: 30px;
+    color: #09AB8F;
+}
+
+.timeline {
+    width: 1080px;
+    margin: 0;
+}
+
+.table {
+    margin: 20x 0;
     padding: 50px 0;
+    width: 1300px;
+
+}
+
+#agenda-reservas {
+    font-size: 20px;
+    color: gray;
+}
+
+.btn-guardar {
+    border-color: #09AB8F;
+    background-color: #09AB8F;
+	color:#FFF;
+	box-shadow:0 2px 4px rgba(0,0,0,0.1);
+    z-index: 2;
+    width: 150px;
+}
+
+.nombre-apellido {
+    width: 250px;
+}
+
+.fecha-style {
+    width: 180px;
+}
+
+.desde-style {
+    width: 100px;
+}
+
+.hasta-style {
+    width: 100px;
+}
+
+.vis-item {
+    background: #09AB8F;
+    color: #fff;
+    text-align: center;
+    border-color: #09AB8F;
+}
+
+.ant-btn-primary:hover, .ant-btn-primary:focus {
+    color: #fff;
+    background-color: #09AB8F;
+    border-color: #09AB8F;
+}
+
+.vis-timeline {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    border: 0 1px 1px 1px;
+}
+
+.ant-pagination-item-active {
+    font-weight: 500;
+    background: #fff;
+    border-color: #09AB8F;
+}
+
+.ant-pagination-item-active a {
+    color: #09AB8F;
+}
+
+.ant-table-thead > tr > th {
+    text-align: center;
+}
+
+.ant-table-thead > tr > th {
+    text-align: center;
+}
+
+.ant-table table {
+    text-align: center;
+}
+
+::selection {
+    color: #fff;
+    background: #09AB8F;
 }
